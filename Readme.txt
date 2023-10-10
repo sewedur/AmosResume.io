@@ -1,17 +1,9 @@
-Certainly! Here's a recommended `README.md` for your MyResume project:
-
----
-
 # MyResume
 
 **MyResume** is a personal portfolio website built using the Bootstrap framework. It provides a professional and clean platform to showcase skills, educational background, work experience, projects, and more. Ideal for professionals and freelancers.
 
 ## Template Details
 
-- **Template Name**: MyResume
-- **Template URL**: [MyResume on BootstrapMade](https://bootstrapmade.com/free-html-bootstrap-template-my-resume/)
-- **Author**: [BootstrapMade.com](https://bootstrapmade.com)
-- **License**: [BootstrapMade License](https://bootstrapmade.com/license/)
 
 ## Features
 
@@ -57,8 +49,6 @@ For issues, feature requests, or any other queries, refer to the official [Boots
 
 ## Credits
 
-Design and template provided by [BootstrapMade.com](https://bootstrapmade.com).
-
----
-
-Make sure to tailor the features and instructions based on the exact nature and functionality of your website. This README is designed to be a generic starter for a portfolio-style webpage.
+[BootstrapMade.com](https://bootstrapmade.com).
+- **Author**: [BootstrapMade.com](https://bootstrapmade.com)
+- **License**: [BootstrapMade License](https://bootstrapmade.com/license/)
