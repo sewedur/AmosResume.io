@@ -1,31 +1,37 @@
-# MyResume
+Your documentation has been updated to include more structure and additional details. Here's the revised version:
 
-**MyResume** is a personal portfolio website built using the Bootstrap framework. It provides a professional and clean platform to showcase skills, educational background, work experience, projects, and more. Ideal for professionals and freelancers.
+---
 
-## Template Details
+# MyResume Personal Portfolio Website
 
+**MyResume** is a personal portfolio website template designed to offer a professional and clean platform to showcase an individual's skills, educational background, work experience, projects, and other relevant details. This template is built using the Bootstrap framework, making it fully responsive and suitable for all device sizes.
+
+The website is hosted at [kushalu.ca](HTTP://kushalu.ca).
 
 ## Features
 
-- Responsive design for all device sizes.
-- Clean and professional appearance.
-- Smooth scrolling and animations.
-- Contact form with email integration.
-- Portfolio section with filtering capabilities.
-- Easy to customize with modular code.
+- **Responsive Design**: Adapts to various screen sizes from mobile to desktop.
+- **Professional Look**: Sleek and clean appearance enhances user experience.
+- **Smooth Interactions**: Effortless scrolling, filtering, and other animations.
+- **Integrated Contact Form**: Allows visitors to send messages directly through the website.
+- **Dynamic Portfolio Section**: Display your projects with built-in filtering capabilities.
+- **Modular Code Structure**: Facilitates easy customization and modifications.
 
 ## Installation and Setup
 
-1. Clone the repository or download the ZIP file.
-2. Extract the ZIP file to your desired directory.
-3. Open `index.html` in your preferred browser to view the website.
-4. Customize the content as per your requirements. 
+1. Clone the GitHub repository or download the ZIP file.
+2. Extract the contents to your desired directory.
+3. Navigate to the directory and open `index.html` in your preferred browser.
+4. Replace the template content with your personal details and preferences.
 
 ## Customization
 
-Replace the dummy content in sections like "About Me", "Resume", "Portfolio", and "Contact" with your personal details. Don't forget to link your actual social media accounts in the footer and header.
+Most customizations involve replacing placeholder content:
 
-For more advanced customization, you might need knowledge of:
+- Update sections such as "About Me", "Resume", "Portfolio", and "Contact" with your details.
+- Link to your social media profiles in both the header and footer.
+
+For deeper customizations, familiarity with the following is beneficial:
 
 - HTML
 - CSS
@@ -34,21 +40,23 @@ For more advanced customization, you might need knowledge of:
 
 ## Dependencies
 
-- Bootstrap v4.x
-- jQuery
-- AOS (Animate on Scroll)
-- PHP (for the contact form)
+- **Bootstrap** (Version 4.x): For layout and design.
+- **jQuery**: To facilitate JavaScript-based interactions.
+- **AOS (Animate on Scroll)**: For on-scroll animations.
+- **PHP**: Needed if you're utilizing the contact form.
 
-## CORS Policy
+## Handling CORS
 
-Ensure that your server or hosting provider supports and configures Cross-Origin Resource Sharing (CORS) appropriately if you're fetching data from external APIs or other external sources.
+If you're fetching data from external sources or APIs, ensure your server or hosting provider has correctly configured Cross-Origin Resource Sharing (CORS) to prevent potential issues.
 
-## Support
+## Support and Issues
 
-For issues, feature requests, or any other queries, refer to the official [BootstrapMade Support](https://bootstrapmade.com/contact/).
+For assistance, reporting bugs, or requesting features, you can reach out through the [BootstrapMade Support](https://bootstrapmade.com/contact/).
 
 ## Credits
 
-[BootstrapMade.com](https://bootstrapmade.com).
-- **Author**: [BootstrapMade.com](https://bootstrapmade.com)
-- **License**: [BootstrapMade License](https://bootstrapmade.com/license/)
+Template created by [BootstrapMade.com](https://bootstrapmade.com). All rights pertaining to the template are governed by the [BootstrapMade License](https://bootstrapmade.com/license/).
+
+--- 
+
+This structure provides clarity and ensures that potential users or viewers of the template can quickly understand its features, setup, and other relevant details.
