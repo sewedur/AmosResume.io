@@ -6,7 +6,7 @@ Your documentation has been updated to include more structure and additional det
 
 **MyResume** is a personal portfolio website template designed to offer a professional and clean platform to showcase an individual's skills, educational background, work experience, projects, and other relevant details. This template is built using the Bootstrap framework, making it fully responsive and suitable for all device sizes.
 
-The website is hosted at [kushalu.ca](HTTP://kushalu.ca).
+**** site is live at https://kushalu.ca/
 
 ## Features
 
