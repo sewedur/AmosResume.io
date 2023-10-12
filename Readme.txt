@@ -1,7 +1,3 @@
-Your documentation has been updated to include more structure and additional details. Here's the revised version:
-
----
-
 # MyResume Personal Portfolio Website
 
 **MyResume** is a personal portfolio website template designed to offer a professional and clean platform to showcase an individual's skills, educational background, work experience, projects, and other relevant details. This template is built using the Bootstrap framework, making it fully responsive and suitable for all device sizes.
@@ -56,7 +52,3 @@ For assistance, reporting bugs, or requesting features, you can reach out throug
 ## Credits
 
 Template created by [BootstrapMade.com](https://bootstrapmade.com). All rights pertaining to the template are governed by the [BootstrapMade License](https://bootstrapmade.com/license/).
-
---- 
-
-This structure provides clarity and ensures that potential users or viewers of the template can quickly understand its features, setup, and other relevant details.
