@@ -1,7 +1,6 @@
 # MyResume Personal Portfolio Website
 
-**MyResume** is a personal portfolio website template designed to offer a professional and clean platform to showcase an individual's skills, educational background, work experience, projects, and other relevant details. This template is built using the Bootstrap framework, making it fully responsive and suitable for all device sizes.
-
+**MyResume** is a personal portfolio website template designed to offer a professional and clean platform to showcase an individual's skills, educational background, work experience, projects, and other relevant details.
 **** site is live at https://kushalu.ca/
 
 ## Features
@@ -41,14 +40,6 @@ For deeper customizations, familiarity with the following is beneficial:
 - **AOS (Animate on Scroll)**: For on-scroll animations.
 - **PHP**: Needed if you're utilizing the contact form.
 
-## Handling CORS
-
-If you're fetching data from external sources or APIs, ensure your server or hosting provider has correctly configured Cross-Origin Resource Sharing (CORS) to prevent potential issues.
-
-## Support and Issues
-
-For assistance, reporting bugs, or requesting features, you can reach out through the [BootstrapMade Support](https://bootstrapmade.com/contact/).
-
-## Credits
+ts
 
 Template created by [BootstrapMade.com](https://bootstrapmade.com). All rights pertaining to the template are governed by the [BootstrapMade License](https://bootstrapmade.com/license/).
