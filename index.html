@@ -27,8 +27,8 @@
 </head>
 
 <body>
-<div class="site-overlay">
-  <div class="overlay-content">
+<div class="full-overlay">
+  <div class="overlay-box">
     🚧 UNDER RECONSTRUCTION 🚧  
     <br><br>
     Look away while I build the best Health & Tech startup 💪🏽💻
@@ -36,38 +36,28 @@
 </div>
 
 <style>
-/* Full-page overlay */
-.site-overlay {
+/* Full-screen dark overlay */
+.full-overlay {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 90vh; /* covers 90% of screen height */
-  background: rgba(0, 0, 0, 0.85); /* dark transparent blur effect */
-  backdrop-filter: blur(10px);
-  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background: #0b0b0b; /* solid black background */
+  z-index: 999999; /* ensure it covers everything */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
 }
 
-/* Center text box */
-.overlay-content {
-  max-width: 700px;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 40px;
+/* Centered content box */
+.overlay-box {
+  background: #111;
+  color: #ffcc00;
+  padding: 50px;
   border-radius: 20px;
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 1.6;
-  border: 2px solid #ffcc00;
-  box-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
-}
-</style>
-
+  border: 3px solid #ffcc00;
 
 
   <!-- ======= Mobile nav toggle button ======= -->
@@ -501,6 +491,7 @@
 </body>
   
 </html>
+
 
 
 
