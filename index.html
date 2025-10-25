@@ -27,23 +27,46 @@
 </head>
 
 <body>
-<div style="background: #ffcc00; color: #000; padding: 15px; font-family: 'Arial', sans-serif; font-weight: bold; overflow: hidden; white-space: nowrap;">
-  <span class="scroll-text">⚠️ This site is a playful experiment! Take nothing seriously, especially if you work at IRCC. I am a full-time team lead in the disability support industry. as an orphan i like to help individual with complete need and build APP's! I am the only Kushalu in my lineage with a personal webpage first of a generation HAHAHAHAHAHAHAHAHAHAHAHAHAH⚠️</span>
+<div class="under-construction">
+  🚧 UNDER RECONSTRUCTION 🚧  
+  <br>
+  <span>Look away... I'm building the best Health & Tech startup 💪🏽💻</span>
 </div>
 
 <style>
-.scroll-text {
-  display: inline-block;
-  animation: scroll 30s linear infinite; /* slower and smooth */
+.under-construction {
+  text-align: center;
+  margin: 80px auto;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ff9900;
+  background: #111;
+  padding: 30px;
+  border: 3px dashed #ffcc00;
+  border-radius: 20px;
+  max-width: 600px;
+  line-height: 1.6;
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.4);
+  animation: floaty 5s ease-in-out infinite;
 }
 
-@keyframes scroll {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+.under-construction span {
+  display: inline-block;
+  color: #fff;
+  animation: pulseText 2.5s ease-in-out infinite;
+}
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes pulseText {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
 }
 </style>
-
-
 
 
   <!-- ======= Mobile nav toggle button ======= -->
@@ -477,6 +500,7 @@
 </body>
   
 </html>
+
 
 
 
