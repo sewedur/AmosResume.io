@@ -272,30 +272,61 @@
       </div>
       </div>
 
-      <div class="col-lg-6">
+     <div class="shred-section">
+  <h3>Professional Experience</h3>
 
-        <h3 class="resume-title">Professional Experience</h3>
-        <div class="resume-item">
-          <h4>Full Stack Engineer</h4><br>
-          <h5>December 2022 – April 2023</h5><br>
-          <p><em>Tracx TMS, Lethbridge, AB</em></p>
-          <ul>
-            <li>Mobile App and Website Overhaul: Spearheaded redesign employing Laravel, PHP, and Docker.</li>
-            <li>Database and Security Management: Conducted database migrations and improved security.</li>
-            <li>Team Collaboration and Client Satisfaction: Engaged with teams to deliver robust software.</li>
-          </ul>
-        </div>
-        <div class="resume-item">
-          <h4>Team Lead/Supervisor</h4>
-          <h5>June 2022 – March 2023</h5>
-          <p><em>Edenbridge Family Services Inc, Lethbridge, AB</em></p>
-          <ul>
-            <li>Promotion and Team Leadership: Led a team of 12 members, highlighting leadership skills.</li>
-            <li>Customer Satisfaction and Conflict Resolution: Maintained high client satisfaction rate.</li>
-            <li>Cross-Functional Collaboration: Fostered relationships across multiple departments.</li>
-          </ul>
-        </div>
-      </div>
+  <div class="shred-item">
+    <h4>Full Stack Engineer</h4>
+    <h5>December 2022 – April 2023</h5>
+    <p><em>Tracx TMS, Lethbridge, AB</em></p>
+    <ul>
+      <li>Mobile App and Website Overhaul: Spearheaded redesign employing Laravel, PHP, and Docker.</li>
+      <li>Database and Security Management: Conducted database migrations and improved security.</li>
+      <li>Team Collaboration and Client Satisfaction: Engaged with teams to deliver robust software.</li>
+    </ul>
+  </div>
+
+  <div class="shred-item">
+    <h4>Team Lead/Supervisor</h4>
+    <h5>June 2022 – March 2023</h5>
+    <p><em>Edenbridge Family Services Inc, Lethbridge, AB</em></p>
+    <ul>
+      <li>Promotion and Team Leadership: Led a team of 12 members, highlighting leadership skills.</li>
+      <li>Customer Satisfaction and Conflict Resolution: Maintained high client satisfaction rate.</li>
+      <li>Cross-Functional Collaboration: Fostered relationships across multiple departments.</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+.shred-section {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+.shred-item {
+  animation: shredFade 10s ease-in-out infinite alternate;
+}
+
+@keyframes shredFade {
+  0% { opacity: 1; transform: translateX(0) rotate(0deg); }
+  25% { opacity: 0.9; transform: translateX(-2px) rotate(-0.5deg); }
+  50% { opacity: 0.8; transform: translateX(2px) rotate(0.5deg); }
+  75% { opacity: 0.9; transform: translateX(-1px) rotate(-0.3deg); }
+  100% { opacity: 1; transform: translateX(0) rotate(0deg); }
+}
+
+.shred-item ul li {
+  border-bottom: 1px dashed #ccc;
+  padding: 8px 0;
+}
+
+.shred-item ul li:last-child {
+  border-bottom: none;
+}
+</style>
+
     </div>
 
   </div>
@@ -446,6 +477,7 @@
 </body>
   
 </html>
+
 
 
 
