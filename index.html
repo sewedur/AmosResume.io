@@ -27,9 +27,27 @@
 </head>
 
 <body>
-<div style="background-color: #ffcc00; color: #000; padding: 10px; text-align: center; font-weight: bold; font-family: sans-serif;">
-  ⚠️ This site is a work-in-progress! Please do not take it seriously. ⚠️
+<div style="background: #ff6b6b; padding: 20px; text-align: center; font-family: 'Comic Sans MS', sans-serif; font-size: 20px; font-weight: bold; position: relative; overflow: hidden; height: 80px;">
+  <span class="bounce-text">⚠️ This site is pure chaos! Take nothing seriously! 😜 ⚠️</span>
 </div>
+
+<style>
+.bounce-text {
+  display: inline-block;
+  position: absolute;
+  animation: bounce 5s infinite alternate;
+}
+
+/* Horizontal bounce animation */
+@keyframes bounce {
+  0% { left: 0%; top: 0%; }
+  25% { left: 70%; top: 10%; }
+  50% { left: 30%; top: 40%; }
+  75% { left: 80%; top: 60%; }
+  100% { left: 0%; top: 0%; }
+}
+</style>
+
 
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
@@ -431,4 +449,5 @@
 </body>
   
 </html>
+
 
