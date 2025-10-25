@@ -27,26 +27,22 @@
 </head>
 
 <body>
-<div style="background: #ff6b6b; padding: 20px; text-align: center; font-family: 'Comic Sans MS', sans-serif; font-size: 20px; font-weight: bold; position: relative; overflow: hidden; height: 100px;">
-  <span class="bounce-text">⚠️ This site is pure chaos! Take nothing seriously! 😜 ⚠️</span>
+<div style="background: #ffcc00; color: #000; padding: 15px; font-family: 'Arial', sans-serif; font-weight: bold; overflow: hidden; white-space: nowrap;">
+  <span class="scroll-text">⚠️ This site is a playful experiment! Take nothing seriously. I am a fulll time disability support worker. I can't wait to become a registered nurse, not just a dev! I am the only Kushalu from Nigeria with a webpage first of a genration HAHAHAHAHAHAHAHAHAHAHAHAHAH⚠️</span>
 </div>
 
 <style>
-.bounce-text {
+.scroll-text {
   display: inline-block;
-  position: absolute;
-  animation: bounce 20s infinite alternate ease-in-out; /* slower and smooth */
+  animation: scroll 30s linear infinite; /* slower and smooth */
 }
 
-/* Horizontal + vertical bounce animation */
-@keyframes bounce {
-  0% { left: 0%; top: 0%; }
-  25% { left: 60%; top: 10%; }
-  50% { left: 30%; top: 30%; }
-  75% { left: 70%; top: 50%; }
-  100% { left: 0%; top: 0%; }
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
 }
 </style>
+
 
 
 
@@ -280,8 +276,8 @@
 
         <h3 class="resume-title">Professional Experience</h3>
         <div class="resume-item">
-          <h4>Full Stack Engineer</h4>
-          <h5>December 2022 – Present</h5>
+          <h4>Full Stack Engineer</h4><br>
+          <h5>December 2022 – April 2023</h5><br>
           <p><em>Tracx TMS, Lethbridge, AB</em></p>
           <ul>
             <li>Mobile App and Website Overhaul: Spearheaded redesign employing Laravel, PHP, and Docker.</li>
@@ -450,6 +446,7 @@
 </body>
   
 </html>
+
 
 
 
