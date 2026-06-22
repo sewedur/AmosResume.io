@@ -28,32 +28,6 @@
 
 <body>
 
-<style>
-/* Full-screen dark overlay */
-.full-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: #0b0b0b; /* solid black background */
-  z-index: 999999; /* ensure it covers everything */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-/* Centered content box */
-.overlay-box {
-  background: #111;
-  color: #ffcc00;
-  padding: 50px;
-  border-radius: 20px;
-  border: 3px solid #ffcc00;
-}
-</style>
-
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
   <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
@@ -240,23 +214,24 @@
       </div>
     </section><!-- End Skills Section -->
 
-<!-- ======= Resume Section ======= -->
+<<!-- ======= Resume Section ======= -->
 <section id="resume" class="resume">
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
       <h2>Resume</h2>
-      <p>Amos Sewedor Kushalu is a recent Computer Science graduate with expertise in automating and optimizing cloud solutions, adept in diverse cloud services and programming languages.</p>
+      <p>Amos Sewedor Kushalu is a Computer Science graduate with experience in software development, cloud solutions, GIS, project support, and team leadership.</p>
     </div>
 
     <div class="row">
-      <div class="col-lg-6">
 
+      <div class="col-lg-6">
         <h3 class="resume-title">Education</h3>
+
         <div class="resume-item">
           <h4>University of Lethbridge</h4>
           <h5>2022</h5>
-          <p><em>Bachelor of Science in Computer Science & Geographical Information Systems</em></p>
+          <p><em>Bachelor of Science in Computer Science &amp; Geographical Information Systems</em></p>
         </div>
 
         <div class="resume-item">
@@ -266,6 +241,7 @@
         </div>
 
         <h3 class="resume-title">Certifications</h3>
+
         <div class="resume-item">
           <ul>
             <li><a href="https://www.credly.com/badges/cd48ef47-2c25-486d-95f6-d9f3dcb64cdb/public_url" target="_blank">AWS Certified Solutions Architect – Associate</a></li>
@@ -276,72 +252,51 @@
             <li><a href="https://coursera.org/share/f8deb1474f8e03f4b1fc81fb4a6aa982" target="_blank">Google Cloud Digital Leader Training</a></li>
             <li><a href="https://coursera.org/share/b075170c2973a48920cb2882e9123c65" target="_blank">Agile with Atlassian Jira</a></li>
             <li><a href="https://www.credly.com/badges/cbc391f6-b8f0-4ed1-a1a2-f980998dd07f/public_url" target="_blank">IBM Enterprise Design Thinking Practitioner</a></li>
-        </ul>
+          </ul>
+        </div>
       </div>
+
+      <div class="col-lg-6">
+        <h3 class="resume-title">Professional Experience</h3>
+
+        <div class="resume-item">
+          <h4>Full Stack Engineer</h4>
+          <h5>December 2022 – April 2023</h5>
+          <p><em>Tracx TMS, Lethbridge, AB</em></p>
+          <ul>
+            <li>Redesigned mobile and web interfaces using Laravel, PHP, JavaScript, and Docker.</li>
+            <li>Improved application security by resolving SQL injection vulnerabilities.</li>
+            <li>Supported AWS S3 storage, deployment workflows, and Google Maps API integration.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>Team Lead / Supervisor</h4>
+          <h5>June 2022 – March 2023</h5>
+          <p><em>Edenbridge Family Services Inc., Lethbridge, AB</em></p>
+          <ul>
+            <li>Led and supported a team of staff in a group home environment.</li>
+            <li>Managed scheduling, documentation, reporting, and team coordination.</li>
+            <li>Maintained strong relationships with clients, families, and staff members.</li>
+          </ul>
+        </div>
+
+        <div class="resume-item">
+          <h4>Disability Support Worker / Team Lead</h4>
+          <h5>April 2024 – Present</h5>
+          <p><em>Quest Support Services Inc., Lethbridge, AB</em></p>
+          <ul>
+            <li>Support individuals with daily living, documentation, personal goals, and community access.</li>
+            <li>Assist with staff coordination, communication notes, incident reports, and monthly summaries.</li>
+            <li>Maintain safe, respectful, and person-centered support practices.</li>
+          </ul>
+        </div>
+
       </div>
-
-     <div class="shred-section">
-  <h3>Professional Experience</h3>
-
-  <div class="shred-item">
-    <h4>Full Stack Engineer</h4>
-    <h5>December 2022 – April 2023</h5>
-    <p><em>Tracx TMS, Lethbridge, AB</em></p>
-    <ul>
-      <li>Mobile App and Website Overhaul: Spearheaded redesign employing Laravel, PHP, and Docker.</li>
-      <li>Database and Security Management: Conducted database migrations and improved security.</li>
-      <li>Team Collaboration and Client Satisfaction: Engaged with teams to deliver robust software.</li>
-    </ul>
-  </div>
-
-  <div class="shred-item">
-    <h4>Team Lead/Supervisor</h4>
-    <h5>June 2022 – March 2023</h5>
-    <p><em>Edenbridge Family Services Inc, Lethbridge, AB</em></p>
-    <ul>
-      <li>Promotion and Team Leadership: Led a team of 12 members, highlighting leadership skills.</li>
-      <li>Customer Satisfaction and Conflict Resolution: Maintained high client satisfaction rate.</li>
-      <li>Cross-Functional Collaboration: Fostered relationships across multiple departments.</li>
-    </ul>
-  </div>
-</div>
-
-<style>
-.shred-section {
-  font-family: 'Arial', sans-serif;
-  max-width: 800px;
-  margin: auto;
-}
-
-.shred-item {
-  animation: shredFade 10s ease-in-out infinite alternate;
-}
-
-@keyframes shredFade {
-  0% { opacity: 1; transform: translateX(0) rotate(0deg); }
-  25% { opacity: 0.9; transform: translateX(-2px) rotate(-0.5deg); }
-  50% { opacity: 0.8; transform: translateX(2px) rotate(0.5deg); }
-  75% { opacity: 0.9; transform: translateX(-1px) rotate(-0.3deg); }
-  100% { opacity: 1; transform: translateX(0) rotate(0deg); }
-}
-
-.shred-item ul li {
-  border-bottom: 1px dashed #ccc;
-  padding: 8px 0;
-}
-
-.shred-item ul li:last-child {
-  border-bottom: none;
-}
-</style>
 
     </div>
-
   </div>
 </section><!-- End Resume Section -->
-
-
-
   <!-- ======= Portfolio Section ======= -->
 <section id="portfolio" class="portfolio section-bg">
   <div class="container" data-aos="fade-up">
